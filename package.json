@@ -1,0 +1,16 @@
+{
+  "name": "xml-file-comparison-cartography-tool",
+  "version": "1.0.0",
+  "description": "Comparaison de fichiers basés sur une structure XML, et groupage selon leur contenu.",
+  "main": "compare.js",
+  "scripts": {
+    "process": "node compare.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hary",
+  "license": "ISC",
+  "dependencies": {
+    "diff": "^4.0.1",
+    "html-differ": "^1.4.0"
+  }
+}
